@@ -1,0 +1,109 @@
+/* AboutContent.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .about-header {
+    text-align: center;
+  }
+  
+  .about-header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.2em;
+  }
+  
+  .about-details {
+    margin-top: 20px;
+  }
+  
+  .about-section {
+    margin-bottom: 20px;
+  }
+  
+  .about-section h2 {
+    color: #6b6b6b;
+  }
+  
+  .about-cta {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .about-cta p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 20px 10px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #6b6b6b;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #ffe60a;
+    transition: background-color 0.3s;
+  }
+  
+  .social-links a:hover {
+    background-color: #363636;
+    color: #ffffff;
+    border: 1px solid #fff;
+  }
+
+  @media screen and (max-width: 740px) {
+    .about-content {
+      padding: 10px;
+    }
+  
+    .about-header h1 {
+      font-size: 1.5em;
+    }
+  
+    .about-header p {
+      font-size: 1em;
+    }
+  
+    .about-section h2 {
+      font-size: 1.2em;
+      margin: 10px 0px;
+    }
+  
+    .about-section p{
+      font-size: 0.9rem;
+    }
+
+    .about-cta p {
+      font-size: 0.8rem;
+    }
+  
+    .social-links a {
+      font-size: 0.9em;
+      padding: 6px 10px;
+    }
+
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

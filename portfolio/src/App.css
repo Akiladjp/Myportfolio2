@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: #242424;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  background: rgb(255, 230, 0);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: rgba(211, 190, 0, 0.5);
+  color: #fff;
+  transition: 0.3s;
+}
+
