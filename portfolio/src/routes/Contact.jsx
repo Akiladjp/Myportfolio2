@@ -19,7 +19,7 @@ const Contact = () => {
         text="Hey, Do you need to contact me ? Sent me an email."
       />
 
-      <div className="social">
+      <div className="social" style={{display:"flex", justifyContent:"center"}}>
         <FaGithub
           size={30}
           style={{ color: "#fff", marginRight: "2rem" }}
